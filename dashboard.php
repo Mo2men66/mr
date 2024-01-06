@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mr.Lang - Home</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+   <section class="flex">
+      <a href="home.html" class="logo">Mr.linguistic</a>
+      </form>
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name">Mo'men Ali</h3>
+         <p class="role">student</p>
+         <a href="profile.php" class="btn">view profile</a>
+         <div class="flex-btn">
+            <a href="login.php" class="option-btn">login</a>
+            <a href="register.php" class="option-btn">register</a>
+         </div>
+      </div>
+   </section>
+</header>   
+<div class="side-bar">
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+   <div class="profile">
+      <img src="images/pic-1.jpg" class="image" alt="">
+      <h3 class="name">Mo'men Ali</h3>
+      <p class="role">student</p>
+      <a href="profile.php" class="btn">view profile</a>
+   </div>
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
+      <a href="courses.php"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
+      <a href="contact.php"><i class="fas fa-headset"></i><span>contact us</span></a>
+   </nav>
+</div>
+<section class="courses">
+   <img src="images/imagespic-2.jpg" class="image" alt="" style="width: 1150px; height: 550px;">
+   <h1 class="heading">our courses</h1>
+   <div class="box-container">
+      <div class="box">
+         <div class="tutor">
+            <div class="info">
+               <h3>ENGLISH</h3>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/Untitled.png" class="image" alt="">
+            <span>10 puzzles </span>
+         </div>
+         <a href="quiz.php" class="inline-btn">Learn Now</a>
+      </div>
+      <div class="box">
+         <div class="tutor">
+            <div class="info">
+               <h3>FRENCH</h3>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/pic-4.png" alt="">
+            <span>10 puzzles</span>
+         </div>
+         <a href="quiz.php" class="inline-btn">Learn Now</a>
+      </div>
+      <div class="box">
+         <div class="tutor">
+            <div class="info">
+               <h3>ARABIC</h3>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/pic-3.jpg" alt="">
+            <span>10 puzzles</span>
+         </div>
+         <a href="quiz.php" class="inline-btn">Learn Now</a>
+      </div>
+   </div>
+   <div class="more-btn">
+      <a href="courses.php" class="inline-option-btn">view all courses</a>
+   </div>
+</section>
+<footer class="footer">
+   &copy; copyright @ 2023 by <span>Mo'men Ali wlso7ba Alkrma</span> | all rights reserved!
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
